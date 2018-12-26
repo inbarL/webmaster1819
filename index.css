@@ -10,7 +10,23 @@ html{
   position: relative;
   text-align: center;
   color: white;
-  font-size:3em;
+  font-size:3.5em;
   font-family: 'Montserrat', sans-serif;
-  padding-top:4em;
+  padding-top:2.5em;
+}
+#navBar{
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: .7em;
+}
+#navBar  li{
+  display: inline;
+}
+#navBar li a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+#navBar .homeLink{
+  font-weight: 700;
 }
