@@ -5,5 +5,5 @@ For more information regrding the competition, visit https://www.hackettstown.or
 
 For the prompt and guidelines on the band website, visit https://tsaweb.org/docs/default-source/themes-and-problems-2018-2019/themes/tsa-high-school-webmaster-design-brief-2019.pdf?sfvrsn=db347459_2 .
 
-For information about our school and/or band, visit out website!
+For information about our school and/or band, visit the website we are building here!
 
