@@ -1,5 +1,5 @@
 html{
-  background: url("pics/Black Pattern.jpg") no-repeat center center fixed;
+  background: url("pics/Baroque Pattern.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -35,4 +35,5 @@ html{
   color:white;
   font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
+  padding-left: 10px;
 }
