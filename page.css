@@ -1,0 +1,37 @@
+html{
+  background: url("pics/Black Pattern.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+}
+#bandName{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size:3.5em;
+  font-family: 'Montserrat', sans-serif;
+  padding-top:2.5em;
+}
+#navBar{
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: .7em;
+}
+#navBar  li{
+  display: inline;
+}
+#navBar li a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 15px;
+}
+#navBar .homeLink{
+  font-weight: 700;
+}
+#description{
+  color:white;
+  font-family:sans-serif;
+}
