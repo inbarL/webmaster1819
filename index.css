@@ -1,3 +1,16 @@
-p{
-  background-color: green;
+html{
+  background: url("pics/Band.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+}
+#bandName{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size:3em;
+  font-family: 'Montserrat', sans-serif;
+  padding-top:4em;
 }
