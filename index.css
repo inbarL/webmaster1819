@@ -26,6 +26,7 @@ html{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: white;
+  padding: 15px;
 }
 #navBar .homeLink{
   font-weight: 700;
