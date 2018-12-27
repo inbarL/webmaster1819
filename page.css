@@ -37,3 +37,33 @@ html{
   font-size: 1.2em;
   padding-left: 10px;
 }
+
+.title{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size:2em;
+  font-family: 'Montserrat', sans-serif;
+  padding-top:.5em;
+  padding: 10px;
+}
+
+.content{
+  font-family: 'Montserrat', sans-serif;
+  float:right;
+  text-align: left;
+}
+.rightCard{
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+  height: 200px;
+  width:40%;
+}
+.rightCard img{
+  float:left;
+  padding-right: 20px;
+}
+.rightCardTitle{
+  font-size: 1.5em;
+}
