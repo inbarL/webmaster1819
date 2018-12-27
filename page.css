@@ -28,6 +28,9 @@ html{
   color: white;
   padding: 15px;
 }
+#navBar li a:hover{
+  text-decoration: underline;
+}
 #navBar .homeLink{
   font-weight: 700;
 }
