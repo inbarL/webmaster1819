@@ -52,6 +52,7 @@ html{
   font-family: 'Montserrat', sans-serif;
   float:right;
   text-align: left;
+  margin: 40px;
 }
 .rightCard{
   display: inline-block;
