@@ -13,6 +13,7 @@ html{
   font-size:3.5em;
   font-family: 'Montserrat', sans-serif;
   padding-top:2.5em;
+  padding-bottom:20%;
 }
 #navBar{
   text-align: center;
@@ -33,4 +34,8 @@ html{
 }
 #navBar .homeLink{
   font-weight: 700;
+}
+
+.contents{
+  background-color: rgba(0,0,0,0.8);
 }
