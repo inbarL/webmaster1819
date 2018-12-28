@@ -31,9 +31,6 @@ nav li a{
 nav li a:hover{
   text-decoration: underline;
 }
-nav .homeLink{
-  font-weight: 700;
-}
 #description{
   color:white;
   font-family: 'Raleway', sans-serif;
