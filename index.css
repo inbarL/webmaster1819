@@ -1,12 +1,17 @@
 @import "navBar.css";
+body{
+  margin:0px;
+  padding:0px;
+}
 .top{
-  background: url("pics/Band.jpg") no-repeat center center fixed;
+  background: url("pics/Band.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-size: cover;
   margin: 0px;
+  padding: 0px;
 }
 #bandName{
   position: relative;
