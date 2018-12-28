@@ -14,24 +14,24 @@ html{
   font-family: 'Montserrat', sans-serif;
   padding-top:1.5em;
 }
-#navBar{
+nav{
   text-align: center;
   font-size: 1.5em;
   padding-top: .7em;
 }
-#navBar  li{
+nav li{
   display: inline;
 }
-#navBar li a{
+nav li a{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: white;
   padding: 15px;
 }
-#navBar li a:hover{
+nav li a:hover{
   text-decoration: underline;
 }
-#navBar .homeLink{
+nav .homeLink{
   font-weight: 700;
 }
 #description{
