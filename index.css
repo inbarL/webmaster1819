@@ -32,9 +32,6 @@ html{
 #navBar li a:hover{
   text-decoration: underline;
 }
-#navBar .homeLink{
-  font-weight: 700;
-}
 
 .contents{
   background-color: rgba(0,0,0,0.8);
