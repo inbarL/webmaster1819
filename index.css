@@ -15,27 +15,27 @@ html{
   padding-top:2.5em;
   padding-bottom:20%;
 }
-#navBar{
+nav{
   text-align: center;
   font-size: 1.5em;
   padding-top: .7em;
 }
-#navBar  li{
+nav li{
   display: inline;
 }
-#navBar li a{
+nav li a{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: white;
   padding: 15px;
 }
-#navBar li a:hover{
+nav li a:hover{
   text-decoration: underline;
 }
-#navBar .homeLink{
+nav .homeLink{
   font-weight: 700;
 }
 
 .contents{
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,1);
 }
