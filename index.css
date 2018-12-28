@@ -1,3 +1,4 @@
+@import "navBar.css";
 html{
   background: url("pics/Band.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -15,24 +16,8 @@ html{
   padding-top:2.5em;
   padding-bottom:20%;
 }
-nav{
-  text-align: center;
-  font-size: 1.5em;
-  padding-top: .7em;
-}
-nav li{
-  display: inline;
-}
-nav li a{
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  padding: 15px;
-}
-nav li a:hover{
-  text-decoration: underline;
-}
- 
+
+
 .contents{
   background-color: rgba(0,0,0,1);
 }
