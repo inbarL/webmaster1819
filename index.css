@@ -25,5 +25,10 @@ body{
 
 
 .contents{
+  padding: 30px;
   background-color: rgba(0,0,0,1);
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  padding-left: 10px;
 }
