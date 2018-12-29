@@ -1,0 +1,2 @@
+document.getElementById("helpBar").innerHTML = "Call Us: (123) 456-7890<br>"+
+"1600 Pennsylvania Avenue NW, Washington, DC 20500";
