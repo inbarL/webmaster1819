@@ -1,13 +1,19 @@
+body{
+  position: relative;
+  margin: 0px;
+}
 footer{
   padding: 30px;
-  background-color: rgba(38,38,38,1);
   color:white;
   font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
-  padding: 15px;
+  padding: 1rem;
   padding-left: 20px;
-  position: fixed;
-  bottom: -15px;
-  width: 100%;
+  margin: 0px;
   height:60px;
+  background-color: rgba(38,38,38,1);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
