@@ -1,5 +1,5 @@
 @import "navBar.css";
-@import "helpBar.css";
+@import "footer.css";
 body{
   margin:0px;
   padding:0px;
@@ -25,8 +25,10 @@ body{
 }
 .contents{
   padding: 30px;
-  background-color: rgba(0,0,0,1);
-  color:white;
+  background-color: rgb(255,255,255);
+  background: url("pics/dots.png");
+  background-size: 350px;
+  color: black;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
   padding-left: 10px;

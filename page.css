@@ -1,5 +1,5 @@
 @import "navBar.css";
-@import "helpBar.css";
+@import "footer.css";
 html{
   background: url("pics/Baroque Pattern.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
