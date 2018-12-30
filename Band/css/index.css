@@ -27,15 +27,13 @@ body{
 .contents{
   padding: 30px;
   background-color: rgb(255,255,255);
-<<<<<<< HEAD:index.css
-  background: url("pics/Baroque Pattern.jpg");
+  background: url("../pics/Baroque Pattern.jpg");
   background-size: 100%;
   color: white;
-=======
-  background: url("../pics/dots.png");
+  /*background: url("../pics/dots.png");
   background-size: 350px;
-  color: black;
->>>>>>> 904df6aa0a75dc6c83c8e3f7c92bb5ce36d95428:Band/css/index.css
+  color: black;*/
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
+  /*  padding-left: 10px;*/
 }
