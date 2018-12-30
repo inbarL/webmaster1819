@@ -1,0 +1,21 @@
+nav{
+  font-size: 1.5em;
+  padding-top: .7em;
+  padding-bottom: .7em;
+  position: relative;
+  top: 0px;
+  text-align: center;
+  width: 100%;
+}
+nav li{
+  display: inline;
+}
+nav li a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 15px;
+}
+nav li a:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,41 @@
+@import "navBar.css";
+@import "footer.css";
+body{
+  margin:0px;
+  padding:0px;
+}
+.top{
+  background: url("../pics/Band.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+#bandName{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size:3.5em;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: .5em;
+  padding-top:2.5em;
+  padding-bottom:20%;
+}
+.contents{
+  padding: 30px;
+  background-color: rgb(255,255,255);
+<<<<<<< HEAD:index.css
+  background: url("pics/Baroque Pattern.jpg");
+  background-size: 100%;
+  color: white;
+=======
+  background: url("../pics/dots.png");
+  background-size: 350px;
+  color: black;
+>>>>>>> 904df6aa0a75dc6c83c8e3f7c92bb5ce36d95428:Band/css/index.css
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+}
