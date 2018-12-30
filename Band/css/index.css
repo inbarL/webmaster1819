@@ -5,7 +5,7 @@ body{
   padding:0px;
 }
 .top{
-  background: url("pics/Band.jpg") no-repeat center center;
+  background: url("../pics/Band.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,13 +20,14 @@ body{
   color: white;
   font-size:3.5em;
   font-family: 'Montserrat', sans-serif;
+  margin-top: .5em;
   padding-top:2.5em;
   padding-bottom:20%;
 }
 .contents{
   padding: 30px;
   background-color: rgb(255,255,255);
-  background: url("pics/dots.png");
+  background: url("../pics/dots.png");
   background-size: 350px;
   color: black;
   font-family: 'Open Sans', sans-serif;
