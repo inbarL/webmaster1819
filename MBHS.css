@@ -1,0 +1,33 @@
+html{
+  background: url("pics/Studying.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  padding: 0px;
+  margin:0px;
+}
+#half{
+  background-color: rgba(201, 21, 21, 0.5);
+  width: 50%;
+  height: 37em;
+  margin: 0px;
+}
+header{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  padding-top: 4em;
+}
+
+.underHeader{
+  font-size: 2rem;
+  color: #00107C;
+  padding-left: 4em;
+}
