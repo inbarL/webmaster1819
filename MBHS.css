@@ -1,7 +1,8 @@
 @import "menu.css";
 html{
   box-sizing: border-box;
-
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
   /*margin: 0px;
   padding: 0px;
   margin-top:0px;*/
@@ -30,7 +31,7 @@ body{
     width: 50%;
     height: 90vh;
   }
-  header{
+  #MBHS{
     padding-top: 4em;
   }
 }
@@ -39,7 +40,7 @@ body{
   #half{
     height: 50vh;
   }
-  header{
+  #MBHS{
     padding-top:1em;
     padding-bottom:1em;
   }
@@ -56,7 +57,7 @@ header{
 
 .underHeader{
   font-size: 2rem;
-  color: #00107C;
+  color: #000749;
   padding-left: 4em;
   margin:0px;
 }
@@ -67,5 +68,17 @@ header{
 }
 
 #section2{
-  font-family: 'Open Sans', sans-serif;
+  background-color: #ededed;
+  font-size: 1em;
+  padding: 2rem;
+}
+
+.sectionTitle{
+  font-size: 3rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.sectionContent{
+  padding-top: 1rem;
+  padding-right: 50px;
 }
