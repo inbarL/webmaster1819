@@ -1,20 +1,26 @@
 nav{
   font-size: 1.5em;
   position: relative;
-  top: 0px;
-  text-align: center;
-  width: 100%;
+  /*top: 0px;*/
+  text-align: right;
   margin:0px;
+  padding:15px;
   background-color: white;
+  padding-right: 1em;
+}
+nav ul{
+  margin: 0px;
 }
 nav li{
   display: inline;
+  /*margin: 0px;*/
 }
 nav li a{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: black;
   padding: 15px;
+  /*margin: 0px;*/
 }
 nav li a:hover{
   text-decoration: underline;
