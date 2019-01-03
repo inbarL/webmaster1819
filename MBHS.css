@@ -19,6 +19,7 @@ body{
   -o-background-size: cover;
   background-size: cover;
   background-size: cover;
+  height: 100%;
 }
 #half{
   background-color: rgba(201, 21, 21, 0.5);
