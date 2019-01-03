@@ -30,7 +30,7 @@ body{
 @media screen and (min-width: 800px) {
   #half{
     width: 50%;
-    height: 90vh;
+    height: 100vh;
   }
   #MBHS{
     padding-top: 4em;

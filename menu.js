@@ -9,16 +9,23 @@ console.log("hi");
 window.onscroll = function(e){
   var direction = this.oldScroll > this.scrollY;
   // console.log(direction);
+  if(this.oldScroll - this.scrollY > 5 || this.oldScroll - this.scrollY < -5){
+    document.getElementsByTagName("NAV")[0].style.position = 'fixed';
+    show(direction);
+  }
+  if(this.scrollY <= 10){
+    show(true);
+    document.getElementsByTagName("NAV")[0].style.position = 'relative';
+  }
   this.oldScroll = this.scrollY;
-  show(direction);
 }
 
 
 var show = function(a){
   // console.log("in show, a = " + a);
   if(a == true){
-    document.getElementsByTagName("NAV")[0].style.position = 'fixed';
+    document.getElementsByTagName("NAV")[0].style.top = '0px';
   }else{
-    document.getElementsByTagName("NAV")[0].style.position = 'relative';
+    document.getElementsByTagName("NAV")[0].style.top = '-100px';
   }
 }
