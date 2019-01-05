@@ -1,14 +1,12 @@
 @import "menu.css";
+@import "schoolFooter.css";
 html{
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
-  /*margin: 0px;
-  padding: 0px;
-  margin-top:0px;*/
 }
 body{
-  padding: 0px;
+  padding-bottom: 70px;
   margin:0px;
 }
 
@@ -23,7 +21,6 @@ body{
 }
 #half{
   background-color: rgba(201, 21, 21, 0.5);
-
   margin: 0px;
 }
 
@@ -65,7 +62,6 @@ header{
 .fullScreen{
   box-sizing: border-box;
   height: 100vh;
-  /*padding-bottom: 100px;*/
 }
 
 #section2{
