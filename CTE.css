@@ -25,6 +25,15 @@
   width: 100%;
   padding: 20px;
 }
+
+.LearnMore{
+  /*float: right;
+  background-color: #8e1e00;
+  border-radius: 5px;
+  border: none;*/
+  color: #8e1e00;
+  text-decoration: none;
+}
 /*
 @media all and (min-width: 700px){
   .bigbox{
