@@ -1,0 +1,32 @@
+.box{
+  height: 500px;
+  background-color: #bfbfbf;
+  padding: 10px;
+  display: inline-flex;
+}
+
+.box .title{
+  font-size: 2em;
+}
+
+@media all and (min-width: 700px){
+  .bigbox{
+    width: 50%;
+    margin: 20px;
+  }
+  .smallbox{
+    width: 40%;
+    margin: 20px;
+  }
+}
+
+@media all and (max-width: 700px){
+  .bigbox{
+    width: 80%;
+    margin: 10%;
+  }
+  .smallbox{
+    width: 80%;
+    margin: 10%;
+  }
+}
