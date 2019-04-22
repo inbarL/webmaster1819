@@ -1,14 +1,31 @@
 .box{
-  height: 500px;
-  background-color: #bfbfbf;
-  padding: 10px;
-  display: inline-flex;
+  /*height: 500px;*/
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 0;
 }
 
 .box .title{
+  width: 100%;
   font-size: 2em;
+  display: block;
+  text-align: center;
 }
 
+.blurb{
+  background-color: #8e1e00;
+  width: 100%;
+  padding: 20px;
+}
+/*
 @media all and (min-width: 700px){
   .bigbox{
     width: 50%;
@@ -29,4 +46,4 @@
     width: 80%;
     margin: 10%;
   }
-}
+}*/
