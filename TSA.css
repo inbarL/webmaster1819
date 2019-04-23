@@ -1,0 +1,69 @@
+.box{
+  /*height: 500px;*/
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 0;
+}
+
+@keyframes titleEnlarge {
+  from {font-size: 2em}
+  to {font-size: 2.5em}
+}
+
+.box:hover .title{
+  animation-name: titleEnlarge;
+  animation-duration: 2s;
+  font-size: 2.5em;
+}
+
+.box .title{
+  width: 100%;
+  font-size: 2em;
+  display: block;
+  text-align: center;
+}
+
+.blurb{
+  background-color: #8e1e00;
+  width: 100%;
+  padding: 20px;
+}
+
+.LearnMore{
+  /*float: right;
+  background-color: #8e1e00;
+  border-radius: 5px;
+  border: none;*/
+  color: #8e1e00;
+  text-decoration: none;
+}
+/*
+@media all and (min-width: 700px){
+  .bigbox{
+    width: 50%;
+    margin: 20px;
+  }
+  .smallbox{
+    width: 40%;
+    margin: 20px;
+  }
+}
+
+@media all and (max-width: 700px){
+  .bigbox{
+    width: 80%;
+    margin: 10%;
+  }
+  .smallbox{
+    width: 80%;
+    margin: 10%;
+  }
+}*/
