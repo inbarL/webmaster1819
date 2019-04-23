@@ -10,6 +10,7 @@ nav{
   box-sizing: border-box;
   height:10vh;
   width: 100%;
+  z-index: 1000;
 }
 nav ul{
   margin: 0px;

@@ -15,7 +15,7 @@ window.onscroll = function(e){
   }
   if(this.scrollY <= 10){
     show(true);
-    document.getElementsByTagName("NAV")[0].style.position = 'relative';
+    document.getElementsByTagName("NAV")[0].style.position = 'fixed';
   }
   this.oldScroll = this.scrollY;
 }
@@ -24,8 +24,9 @@ window.onscroll = function(e){
 var show = function(a){
   // console.log("in show, a = " + a);
   if(a == true){
-    document.getElementsByTagName("NAV")[0].style.top = '0px';
+    // document.getElementsByTagName("NAV")[0].style.top = '0px';
+    document.getElementsByTagName("NAV")[0].style.display = 'block';
   }else{
-    document.getElementsByTagName("NAV")[0].style.top = '-100px';
+    document.getElementsByTagName("NAV")[0].style.display = 'none';
   }
 }
