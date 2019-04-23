@@ -13,6 +13,17 @@
   margin-bottom: 0;
 }
 
+@keyframes titleEnlarge {
+  from {font-size: 2em}
+  to {font-size: 2.5em}
+}
+
+.box:hover .title{
+  animation-name: titleEnlarge;
+  animation-duration: 2s;
+  font-size: 2.5em;
+}
+
 .box .title{
   width: 100%;
   font-size: 2em;
