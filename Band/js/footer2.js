@@ -1,2 +1,2 @@
-document.getElementsByTagName("FOOTER")[0].innerHTML = "Call Us: (469) 302-3400 <br>"+
-"600 N. Lake Forest Dr., McKinney, TX 75071<br><a href=../MBHS.html>Website</a>";
+document.getElementsByTagName("FOOTER")[0].innerHTML = "Call Us: (202) 456-1111  <br>"+
+"1600 Pennsylvania Avenue NW Washington, DC 20500<br><a href=../MBHS.html>Go to School Website</a>";
