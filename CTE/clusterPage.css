@@ -23,7 +23,7 @@ header{
   margin: 20px;
   width: 45%;
   display: inline-flex;
-  min-height: 250px;
+  min-height: 280px;
   /*padding: 20px;*/
 }
 
@@ -33,7 +33,7 @@ header{
   padding: 30px;
   padding-right: 15px;
   color: white;
-  background-color: #010a63;
+  background-color: #8e1e00;
 }
 
 .class .description{
