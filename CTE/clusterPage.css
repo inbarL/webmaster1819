@@ -54,3 +54,13 @@ header{
   color: #010a63;
   text-align: center;
 }
+
+.Career{
+  background-color: white;
+  padding: 20px;
+}
+
+.Career .title{
+  color: #8e1e00;
+  font-size: 1.5em;
+}
