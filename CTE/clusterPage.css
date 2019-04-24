@@ -21,17 +21,24 @@ header{
   background-color: #ff6961;
   margin-bottom: 20px;
   margin: 20px;
-  width: 40%;
+  width: 45%;
   display: inline-flex;
   min-height: 250px;
-  padding: 20px;
+  /*padding: 20px;*/
 }
 
 .class .heading{
   font-size: 1.3em;
   text-align: center;
-  margin: 10px;
+  padding: 30px;
+  padding-right: 15px;
   color: white;
+  background-color: #8e1e00;
+}
+
+.class .description{
+  padding: 30px;
+  padding-left: 15px;
 }
 
 .Teacher{
