@@ -38,6 +38,8 @@ header{
   font-size: 2em;
   display: block;
   text-align: center;
+  color: #010a63;
+
 }
 
 .box .motto{
@@ -63,7 +65,7 @@ header{
   background-color: #8e1e00;
   border-radius: 5px;
   border: none;*/
-  color: #ff6961;
+  color: ##010a63;
   text-decoration: none;
 }
 /*
