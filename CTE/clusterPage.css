@@ -1,0 +1,31 @@
+.classList{
+  display: inline-flex;
+
+}
+
+.class{
+  background-color: #c6c6c6;
+  margin-bottom: 20px;
+  margin: 20px;
+  width: 45%;
+  display: inline-flex;
+  min-height: 200px;
+}
+
+.class .heading{
+  font-size: 1.3em;
+  text-align: center;
+  margin: 10px;
+}
+
+.Teacher{
+  width: 100%;
+  background-color: #8e1e00;
+  margin-top: 40px;
+  padding: 20px;
+
+}
+
+.Teacher .title{
+  font-size: 1.7em;
+}

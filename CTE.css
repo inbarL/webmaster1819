@@ -23,6 +23,11 @@
   animation-duration: 2s;
 }
 
+.box .title a{
+  text-decoration: none;
+  color: #7fa7ff;
+}
+
 .box .title{
   width: 100%;
   font-size: 2em;
