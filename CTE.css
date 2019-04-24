@@ -33,8 +33,12 @@
 
 .blurb{
   background-color: #8e1e00;
-  width: 100%;
-  padding: 20px;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
 }
 
 .LearnMore{
