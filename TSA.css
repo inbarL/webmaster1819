@@ -5,7 +5,7 @@
   padding-right: 5%;
   padding-top: 20px;
   padding-bottom: 20px;
-  display: block;
+  display: inline-block;
   width: 80%;
   margin-left: 5%;
   margin-right: 5%;
@@ -31,10 +31,20 @@
   text-align: center;
 }
 
+.box .motto{
+  text-align: center;
+}
+
 .blurb{
   background-color: #8e1e00;
   width: 100%;
-  padding: 20px;
+}
+
+.box .list{
+  display: inline-block;
+  padding: 20;
+  float: center;
+  list-style-type: none;
 }
 
 .LearnMore{
