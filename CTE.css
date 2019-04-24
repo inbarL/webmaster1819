@@ -23,6 +23,11 @@
   animation-duration: 2s;
 }
 
+.box .title a{
+  text-decoration: none;
+  color: #8e1e00;
+}
+
 .box .title{
   width: 100%;
   font-size: 2em;
@@ -31,7 +36,8 @@
 }
 
 .blurb{
-  background-color: #8e1e00;
+  background-color: #010a63;
+  color: white;
   width: 90%;
   padding-left: 5%;
   padding-right: 5%;
