@@ -9,6 +9,7 @@ header{
 
 .ClassList{
   background-color: white;
+  margin-right: 0px;
 }
 
 .ClassList .title{
@@ -34,7 +35,7 @@ header{
 }
 
 .Teacher{
-  width: 100%;
+  width: 90%;
   background-color: #7fa7ff;
   /*margin-top: 40px;*/
   padding: 20px;
