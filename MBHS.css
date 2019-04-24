@@ -11,7 +11,7 @@ body{
 }
 
 #section1{
-  background: url("/Users/s243475/Desktop/webmaster1819/pics/McKinney-Boyd.jpg") no-repeat center center;
+  background: url("../webmaster1819/pics/McKinney-Boyd.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
