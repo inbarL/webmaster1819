@@ -1,31 +1,56 @@
-.classList{
+/*.classList{
   display: inline-flex;
   margin: 0px;
+}*/
+
+header{
+  color: #8e1e00;
+}
+
+.ClassList{
+  background-color: white;
+}
+
+.ClassList .title{
+  font-size: 2em;
+  color: #8e1e00;
 }
 
 .class{
-  background-color: #c6c6c6;
+  background-color: #ff6961;
   margin-bottom: 20px;
   margin: 20px;
-  width: 45%;
+  width: 40%;
   display: inline-flex;
   min-height: 200px;
+  padding: 20px;
 }
 
 .class .heading{
   font-size: 1.3em;
   text-align: center;
   margin: 10px;
+  color: white;
 }
 
 .Teacher{
   width: 100%;
-  background-color: #8e1e00;
-  margin-top: 40px;
+  background-color: #7fa7ff;
+  /*margin-top: 40px;*/
   padding: 20px;
 
 }
 
 .Teacher .title{
   font-size: 1.7em;
+}
+
+.End{
+  margin-top: 20px;
+  /*background-color: white;*/
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #010a63;
+  text-align: center;
 }
