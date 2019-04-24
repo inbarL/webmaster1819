@@ -35,6 +35,19 @@
   text-align: center;
 }
 
+.box .titler a{
+  text-decoration: none;
+  color: #8e1e00;
+}
+
+.box .titler{
+  width: 100%;
+  font-size: 2em;
+  display: block;
+  text-align: center;
+}
+
+
 .blurb{
   background-color: #010a63;
   color: white;
