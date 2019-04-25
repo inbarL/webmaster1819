@@ -81,19 +81,3 @@ header{
   padding-top: 1rem;
   padding-right: 50px;
 }
-
-.sectionContent .paragraph{
-  /*height: 100%*/
-  padding: 50px;
-  align: left;
-  vertical-align: middle;
-
-}
-
-.sectionContent .paragraph p{
-  vertical-align: middle;
-}
-
-.sectionContent .paragraph img{
-  height: 150px;
-}
