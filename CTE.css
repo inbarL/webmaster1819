@@ -85,11 +85,12 @@ header{
 
 .thing .text{
   width: 40%;
-  float: left;
+  float: right;
   padding: 3%;
 }
 
-.thing .pic{
+.thing img{
+  float: right;
   margin: 0px;
   padding: 0px;
 }
