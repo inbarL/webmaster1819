@@ -4,7 +4,9 @@
 }*/
 
 header{
-  color: #8e1e00;
+  color: white;
+  font-size: 72px;
+  padding-top: 20px;
 }
 
 img{
@@ -72,7 +74,7 @@ img{
   padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
-  color: #010a63;
+  color: white;
   text-align: center;
 }
 
