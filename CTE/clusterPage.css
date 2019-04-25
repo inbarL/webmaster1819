@@ -4,7 +4,13 @@
 }*/
 
 header{
-  color: #8e1e00;
+  color: white;
+  font-size: 72px;
+  padding-top: 20px;
+}
+
+img{
+  padding-right: 15px;
 }
 
 .ClassList{
@@ -18,7 +24,7 @@ header{
 }
 
 .class{
-  background-color: #ff6961;
+  /*background-color: #ff6961;*/
   margin-bottom: 20px;
   margin: 20px;
   width: 45%;
@@ -55,9 +61,9 @@ header{
 
 /*@media min-width*/
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1000px){
   .class{
-    background-color: green;
+    display: block;
     width: 90%;
   }
 }
@@ -68,7 +74,7 @@ header{
   padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
-  color: #010a63;
+  color: white;
   text-align: center;
 }
 
