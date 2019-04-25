@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Press</title>
+    <title>Credits</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
 
@@ -22,7 +22,7 @@
       <a class="nav-item nav-link mx-1" href="https://inbarl.github.io/webmaster1819/Band/music.html">MUSIC</a>
       <a class="nav-item nav-link mx-1" href="https://inbarl.github.io/webmaster1819/Band/shows.html">SHOWS</a>
       <a class="nav-item nav-link mx-1" href="https://inbarl.github.io/webmaster1819/Band/shop.html">SHOP</a>
-      <a class="nav-item nav-link active mx-1" href="https://inbarl.github.io/webmaster1819/Band/press.html">PRESS</a>
+      <a class="nav-item nav-link mx-1" href="https://inbarl.github.io/webmaster1819/Band/press.html">PRESS</a>
     </div>
   </div>
 </nav>
@@ -41,8 +41,9 @@
       </div>
     -->
     <div>
-      <div id="imageSection" class="container"> <div class="col-12 mx-auto my-auto "> <h2 id="bandName" class="text-center mt-3 "> PRESS REVIEWS </h2> <p class="text-center lead mt-5"><i> “Glass Garden is a paragon of progressiveness in the music scene! The cool new tones juxtapose the traces of old indie, giving the album a truly fresh and unique sound.”</i> <small class=" ">-Sarah Hiroko </small> </p> <p class="text-center lead mt-5"><i> “WOW!!! This music is truly revolutionary!!! The harmonies are wonderfully combined with somber lyrics that truly take the listener to a soundscape completely undiscovered!!”</i> <small class="">-tumblr user kehaby</small> </p> </div>
-          </div>
+      <div id="imageSection" class="container"> <div class="col-12 mx-auto my-auto ">
+         <h2 id="bandName" class="text-center mt-3 "> SITE CREDITS</h2>
+          <p class="text-center lead mt-5">Framework: <a href="https://getbootstrap.com/">Bootstrap 4</a><br> Footer Icons: <a href="https://material.io/tools/icons/?icon=public&style=baseline">Material Design</a> <br> Instagram Feed: <a href="https://www.juicer.io/">Juicer.IO</a> <br> Music Producer: <a href="https://soundcloud.com/zachwhitson">Zachary Whitson (Yes with Permission)</a> <br> Photos: Cameron Sigua, Emma Johnson</p>
 
         </div>
         </div>
@@ -77,7 +78,13 @@
           font-family: 'Montserrat', sans-serif;
           font-size: 40px;
         }
-
+        @media (max-width: 600px) {
+          #bandName{
+            position: relative;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+          }
+        }
         a, #open {
           font-size: 20px;
           animation-name:appear;
