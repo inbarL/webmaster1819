@@ -51,7 +51,9 @@ img{
   width: 90%;
   background-color: #7fa7ff;
   /*margin-top: 40px;*/
-  padding: 20px;
+  padding: 2.5%;
+  width: 33%;
+  padding-right: 3.5%; 
 
 }
 
@@ -71,7 +73,7 @@ img{
 .End{
   margin-top: 20px;
   /*background-color: white;*/
-  padding: 20px;
+  padding: 0%;
   padding-left: 50px;
   padding-right: 50px;
   color: white;
@@ -80,10 +82,16 @@ img{
 
 .Career{
   background-color: white;
-  padding: 20px;
+  padding: 2.5%;
+  width: 34%;
 }
 
 .Career .title{
   color: #8e1e00;
   font-size: 1.5em;
+}
+
+
+.bottomthing{
+  display: inline-flex;
 }
