@@ -11,6 +11,7 @@ nav{
   height:10vh;
   width: 100%;
   z-index: 1000;
+  background-color: #000749;
 }
 nav ul{
   margin: 0px;
@@ -22,7 +23,7 @@ nav li{
 nav li a{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  color: black;
+  color: white;
   padding: 15px;
   /*margin: 0px;*/
 }

@@ -1,20 +1,26 @@
-body{
-  position: relative;
-  margin: 0px;
+/*body{
+  margin-top: 50px;
   padding-bottom: 50px;
-}
+}*/
 footer{
   padding: 30px;
-  color:#510600;
+  color: gray;
   font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
   padding: 1rem;
   padding-left: 20px;
   margin: 0px;
-  background-color: #b2d2ff;
-  position: absolute;
+  /*background-color: #000749;*/
+  background-color: white;
+  /*position: absolute;
   right: 0;
   bottom: 0;
-  left: 0;
-  margin-top: 50px;
+  left: 0;*/
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+footer a{
+  color: #8e1e00;
+  text-decoration: none;
 }
