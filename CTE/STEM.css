@@ -18,3 +18,67 @@
     width: 100%;
     height: 92vh;
   }
+
+  #one{
+    background: url("../CTE-pics/Math-pics/1.jpg") center center;
+  }
+
+  #one:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
+
+  #two{
+    background: url("../CTE-pics/Math-pics/2.jpg") center center;
+  }
+
+  #two:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
+
+  #thr{
+    background: url("../CTE-pics/Math-pics/3.jpg") center center;
+  }
+
+  #thr:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
+
+  #fou{
+    background: url("../CTE-pics/Math-pics/4.jpg") center center;
+  }
+
+  #fou:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
+
+  #fiv{
+    background: url("../CTE-pics/Math-pics/5.jpg") center center;
+  }
+
+  #fiv:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
+
+  #six{
+    background: url("../CTE-pics/Math-pics/6.jpg") center center;
+  }
+
+  #six:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
+
+  #sev{
+    background: url("../CTE-pics/Math-pics/7.jpg") center center;
+  }
+
+  #sev:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
+
+  #eig{
+    background: url("../CTE-pics/Math-pics/8.jpg") center center;
+  }
+
+  #eig:hover{
+    background: url("../Math-pics/re.jpg") center center;
+  }

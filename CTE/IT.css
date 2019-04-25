@@ -18,3 +18,52 @@
     width: 100%;
     height: 92vh;
   }
+
+
+  #one{
+    background: url("../CTE-pics/IT-pics/1.jpg") center center;
+  }
+
+  #one:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
+
+  #two{
+    background: url("../CTE-pics/IT-pics/2.jpg") center center;
+  }
+
+  #two:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
+
+  #thr{
+    background: url("../CTE-pics/IT-pics/3.jpg") center center;
+  }
+
+  #thr:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
+
+  #fou{
+    background: url("../CTE-pics/IT-pics/4.jpg") center center;
+  }
+
+  #fou:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
+
+  #fiv{
+    background: url("../CTE-pics/IT-pics/5.jpg") center center;
+  }
+
+  #fiv:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
+
+  #six{
+    background: url("../CTE-pics/IT-pics/6.jpg") center center;
+  }
+
+  #six:hover{
+    background: url("../CTE-pics/black.jpg") center center;
+  }
