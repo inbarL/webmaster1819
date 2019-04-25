@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About</title>
+    <title>Shop</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
 
@@ -39,8 +39,8 @@
 
       </div>
     -->
-    <div>
-      <div id="showcase" class="container justify-content-center opac mt-4 ">
+    <div class="d-none d-md-block">
+      <div id="showcase" class="container justify-content-center mt-4 ">
         <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -49,24 +49,24 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block p-4 border" src="https://drive.google.com/uc?id=158lxdf5NFeldMTmLCoSBhnW0NJ3SJLX_" height="300px" alt="CDs">
-              <div class="carousel-caption d-none d-md-block text-black">
+              <img class="d-block border" src="https://drive.google.com/uc?id=1bFi3bYAL3ZKwE6bAxLvJ1M04dCWj9362" height="500px" alt="CDs">
+              <div class="carousel-caption d-none opac d-md-block">
                 <h5>Purchase Weekend Wallflowers' debut EP: GLASS GARDEN </h5>
                 <p>15.99 per Disc, not including shipping and handling</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block p-4 border" src="https://drive.google.com/uc?id=158lxdf5NFeldMTmLCoSBhnW0NJ3SJLX_" height="500px" alt="CDs">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Check out the shirts!! we worked pretty hecking hard on it</h5>
+              <img class="d-block border" src="https://drive.google.com/uc?id=158lxdf5NFeldMTmLCoSBhnW0NJ3SJLX_" height="500px" alt="Shirts">
+              <div class="carousel-caption d-none opac d-md-block">
+                <h5 class="text-black ">Check out the shirts!! we worked pretty hecking hard on it</h5>
                 <p>15.99 per Shirt, not including shipping and handling</p>
 
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block p-4 border" src="https://drive.google.com/uc?id=158lxdf5NFeldMTmLCoSBhnW0NJ3SJLX_" height="500px" alt="CDs">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>hey these are pretty cool</h5>
+              <img class="d-block border" src="https://drive.google.com/uc?id=1SNRZvwz0VDLcIqwHRo37BqGgF2oeqR6y" height="500px" alt="Hats">
+              <div class="carousel-caption d-none opac d-md-block">
+                <h5>Hey these are pretty cool!!</h5>
                 <p>18.99 each, not including shipping and handling</p>
 
               </div>
@@ -85,7 +85,7 @@
     </div>
     <div class=" my-2 container row justify-content-center">
       <div class="card text-center opac text-white m-2" style="width: 20rem;">
-        <img class="card-img-top" src="https://drive.google.com/uc?id=1g-dMOjGOHKoskkP1kSxRCY08sxnIQwKB" alt="Card image cap">
+        <img class="card-img-top" src="https://drive.google.com/uc?id=1-Ei7F65biadbCma2kYbBHiM1kVEZyg99" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">GLASS GARDEN CD</h5>
           <p class="card-text">Digital copy of Glass Garden for $10.99</p>
@@ -93,7 +93,7 @@
         </div>
       </div>
       <div class="card text-center opac text-white m-2" style="width: 20rem;">
-        <img class="card-img-top" src="https://drive.google.com/uc?id=1g-dMOjGOHKoskkP1kSxRCY08sxnIQwKB" alt="Card image cap">
+        <img class="card-img-top" src="https://drive.google.com/uc?id=1DM0Xt8ZXTwdITaIrXBMRxDgG989Qj5Fh" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Wallflowers Shirts</h5>
           <p class="card-text">A Weekend Wallflowers print Shirt for $19.99</p>
@@ -101,7 +101,7 @@
         </div>
       </div>
       <div class="card text-center opac text-white m-2" style="width: 20rem;">
-        <img class="card-img-top" src="https://drive.google.com/uc?id=1g-dMOjGOHKoskkP1kSxRCY08sxnIQwKB" alt="Card image cap">
+        <img class="card-img-top" src="https://drive.google.com/uc?id=1zWGRvsqWsBkAWJ4jJBs0dUsl0s3aK0AX" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Wallflowers Hats</h5>
           <p class="card-text">A pretty hecking neat Weekend Wallflowers hat for $14.99</p>
@@ -133,7 +133,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Purchase </h5>
+          <h5 class="modal-title" id="exampleModalLabel">Purchase</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -141,23 +141,37 @@
         <div class="modal-body">
           <form>
             <div class="form-group">
-              <label for="recipient-name" class="col-form-label">Recipient:</label>
-              <input type="text" class="form-control" id="recipient-name">
-            </div>
-            <div class="form-group">
-              <label for="message-text" class="col-form-label">Message:</label>
-              <textarea class="form-control" id="message-text"></textarea>
+              <label for="recipient-name" class="col-form-label">Amount:</label>
+              <div class="form-group row">
+                <div class="col-12">
+                  <input id="numTickets" class="form-control" type="number" value="0" >
+                </div>
+              </div>
             </div>
           </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Send message</button>
+          <button type="button" class="btn btn-primary" onclick="alert('Sorry!! Out of stock!')">Purchase</button>
         </div>
       </div>
     </div>
   </div>
+  <span id="footer" class="d-block p-2 bg-white">
+    <div id="contactSec" class="col-12 bg-transparent container row justify-content-center mx-auto">
+      <a class="text-muted my-auto mr-1 "href="https://inbarl.github.io/webmaster1819/index.html">CTE Website / </a>
+
+      <a class="text-muted my-auto "href="https://inbarl.github.io/webmaster1819/Band/credits.html"> Credits /</a>
+
+      <img class="m-2" onclick="location.href = 'https://www.instagram.com/weekendwallflowers/?hl=en';" href=""min-width="300%"min-height="300%" src="https://drive.google.com/uc?id=1repqae4peMu4GGn_lXhLyaHkOKwB3uqW" alt="Insta: Weekendwallflowers" >
+      <img class="m-2" onclick="location.href = 'mailto:weekendwallflowers@gmail.com?subject=Question';" min-width="300%"min-height="300%" src="https://drive.google.com/uc?id=1-AagrI8-lXycao8sunvuV7kkUVbZLIlH" alt="Email: weekendwallflowers@gmail.com" >
+      <img class="m-2" onclick="location.href = 'https://twitter.com/WeekendWallflo1';" min-width="300%"min-height="300%" src="https://drive.google.com/uc?id=1ZV-NAaalMj69xPbum5dw7BPoDYf4aN3x" alt="Twitter: WeekendWallflo1" >
+    </div>
+  </span>
     <style>
+    .carousel-inner > .item > img {
+  margin: 0 auto;
+}
         body{
           background-image: url('https://drive.google.com/uc?id=1al-tA7idEdPK2nC5sitR91pD9dvZ-AvT');
           background-color: #ffe9ec;
@@ -171,6 +185,11 @@
           position: relative;
           font-family: 'Montserrat', sans-serif;
           font-size: 40px;
+        }
+        #footer{
+          position: static;
+          width: 100%;
+          bottom: 0;
         }
 
         div.opac {

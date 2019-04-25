@@ -33,20 +33,54 @@
 
           <div class="card text-center text-white opac m-2 col-lg-3 col-sm-12 col-md-5 " >
             <div class="card-body">
-              <h5 class="card-title">  April 30th, Dallas Tx</h5>
+              <h5 class="card-title">  April 30th, Dallas TX</h5>
               <p class="card-text">at <i>Granada Theater</i> from 8:00pm to 11:00pm</p>
               <a href="#" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Buy Tickets</a>
             </div>
           </div>
+          <div class="card text-center text-white opac m-2 col-lg-3 col-sm-12 col-md-5 " >
+            <div class="card-body">
+              <h5 class="card-title">  May 5th, Austin TX</h5>
+              <p class="card-text">at <i>Historic Scoot Inn</i> from 7:00pm to 10:00pm</p>
+              <a href="#" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Buy Tickets</a>
+            </div>
+          </div>
+          <div class="card text-center text-white opac m-2 col-lg-3 col-sm-12 col-md-5 " >
+            <div class="card-body">
+              <h5 class="card-title">  June 10th, San Fransisco CA</h5>
+              <p class="card-text">at <i>The Filmore</i> from 8:00pm to 11:00pm</p>
+              <a href="#" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Buy Tickets</a>
+            </div>
+          </div>
+          <div class="card text-center text-white opac m-2 col-lg-3 col-sm-12 col-md-5 " >
+            <div class="card-body">
+              <h5 class="card-title">  June 28th, Boulder CO</h5>
+              <p class="card-text">at <i>The Fox Theater</i> from 8:30pm to 11:30pm</p>
+              <a href="#" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Buy Tickets</a>
+            </div>
+          </div>
+          <div class="card text-center text-white opac m-2 col-lg-3 col-sm-12 col-md-5 " >
+            <div class="card-body">
+              <h5 class="card-title">  July 14th, Detroit MI</h5>
+              <p class="card-text">at <i>El Club</i> from 5:00pm to 9:00pm</p>
+              <a href="#" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Buy Tickets</a>
+            </div>
+          </div>
+          <div class="card text-center text-white opac m-2 col-lg-3 col-sm-12 col-md-5 " >
+            <div class="card-body">
+              <h5 class="card-title">  August 1st, New York NY</h5>
+              <p class="card-text">at <i>Irving Plaza</i> from 8:30pm to 11:30pm</p>
+              <a href="#" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Buy Tickets</a>
+            </div>
+          </div>
+          <div class="card text-center text-white opac m-2 col-lg-3 col-sm-12 col-md-5 " >
+            <div class="card-body">
+              <h5 class="card-title">  August 5th, Clifton Park NY</h5>
+              <p class="card-text">at <i>Upstate Concert Hall </i> from 8:00pm to 11:00pm</p>
+              <a href="#" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Buy Tickets</a>
+            </div>
+          </div>
 
-        <p class="text-center lead">
-          April 30th, Austin Tx<br>
-          May 1st, Dallas Tx<br>
-          May 4th Atlanta GA <br>
-          May 6th Philadelphia PA <br>
-          May 7th Washington DC <br>
-          May 8th New York, NY <br>
-          May 10th Boston MA
 
 </p>
       </div>
@@ -54,7 +88,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Purchase Tickets</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -62,29 +96,24 @@
             <div class="modal-body">
               <form>
                 <div class="form-group">
-                  <label for="recipient-name" class="col-form-label">Recipient:</label>
-                  <input type="text" class="form-control" id="recipient-name">
-                </div>
-                <div class="form-group">
-                  <label for="message-text" class="col-form-label">Message:</label>
-                  <textarea class="form-control" id="message-text"></textarea>
+                  <p class="lead"> Price Per Ticket: 20.00$ </p>
+                  <label for="recipient-name" class="col-form-label">Amount of Tickets:</label>
+                  <div class="form-group row">
+                    <div class="col-12">
+                      <input id="numTickets" class="form-control" type="number" value="0" >
+                    </div>
+                  </div>
                 </div>
               </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Send message</button>
+              <button type="button" class="btn btn-primary" onclick="alert('Sorry!! Out of stock!')">Purchase</button>
             </div>
           </div>
         </div>
       </div>
-<!--
-      <div class=" col-lg-9 col-md-5 col-sm-5 mx-auto">
-        <img src="https://pbs.twimg.com/profile_images/1011171409471524864/vDjaHTj8_400x400.jpg" class="float-left img-fluid" alt="Responsive image">
-        <img src="https://pbs.twimg.com/profile_images/1011171409471524864/vDjaHTj8_400x400.jpg" class="float-right img-fluid" alt="Responsive image">
 
-      </div>
-    -->
     <div>
 
 
@@ -94,6 +123,18 @@
 
 
   </div>
+
+  <span id="footer" class="d-block p-2 bg-white">
+    <div id="contactSec" class="col-12 bg-transparent container row justify-content-center mx-auto">
+      <a class="text-muted my-auto mr-1 "href="https://inbarl.github.io/webmaster1819/index.html">CTE Website / </a>
+
+      <a class="text-muted my-auto "href="https://inbarl.github.io/webmaster1819/Band/credits.html"> Credits /</a>
+
+      <img class="m-2" onclick="location.href = 'https://www.instagram.com/weekendwallflowers/?hl=en';" href=""min-width="300%"min-height="300%" src="https://drive.google.com/uc?id=1repqae4peMu4GGn_lXhLyaHkOKwB3uqW" alt="Insta: Weekendwallflowers" >
+      <img class="m-2" onclick="location.href = 'mailto:weekendwallflowers@gmail.com?subject=Question';" min-width="300%"min-height="300%" src="https://drive.google.com/uc?id=1-AagrI8-lXycao8sunvuV7kkUVbZLIlH" alt="Email: weekendwallflowers@gmail.com" >
+      <img class="m-2" onclick="location.href = 'https://twitter.com/WeekendWallflo1';" min-width="300%"min-height="300%" src="https://drive.google.com/uc?id=1ZV-NAaalMj69xPbum5dw7BPoDYf4aN3x" alt="Twitter: WeekendWallflo1" >
+    </div>
+  </span>
 
     <style>
         body{
@@ -109,6 +150,11 @@
           position: relative;
           font-family: 'Montserrat', sans-serif;
           font-size: 40px;
+        }
+        #footer{
+          position: static;
+          width: 100%;
+          bottom: 0;
         }
         a, #open {
           font-size: 20px;
@@ -130,11 +176,9 @@
       </style>
 <script>
 $('#exampleModal').on('show.bs.modal', function (event) {
-  var button = $(event.relatedTarget) // Button that triggered the modal
-  var recipient = button.data('whatever') // Extract info from data-* attributes
-  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-  var modal = $(this)
+  var button = $(event.relatedTarget)
+  var recipient = button.data('whatever')
+    var modal = $(this)
   modal.find('.modal-title').text('New message to ' + recipient)
   modal.find('.modal-body input').val(recipient)
 })
