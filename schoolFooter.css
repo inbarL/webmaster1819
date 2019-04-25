@@ -11,13 +11,14 @@ footer{
   padding-left: 20px;
   margin: 0px;
   /*background-color: #000749;*/
-  background-color: white;
+  background-color: lightgray;
   /*position: absolute;
   right: 0;
   bottom: 0;
   left: 0;*/
   margin-top: 20px;
   margin-bottom: 0px;
+  text-align: center;
 }
 
 footer a{
