@@ -14,7 +14,7 @@
 }
 
 header{
-  color: red;
+  color: #8e1e00;
 }
 
 @keyframes titleEnlarge {
@@ -71,4 +71,24 @@ header{
   border: none;*/
   color: #7fa7ff;
   text-decoration: none;
+}
+
+
+.thing{
+  display: inline-block;
+  width: 90%;
+  margin: 5%;
+  background-color: lightgray;
+  padding: 0%
+}
+
+.thing .text{
+  width: 40%;
+  float: right;
+  padding: 5%;
+}
+
+.thing .pic{
+  margin: 0px;
+  padding: 0px;
 }
