@@ -85,7 +85,7 @@ header{
 
 .thing .text{
   width: 40%;
-  float: right;
+  float: left;
   padding: 3%;
 }
 
