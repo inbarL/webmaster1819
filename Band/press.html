@@ -14,6 +14,7 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  <h5 id="open" class="mx-2 text-left appear lead my-auto">WEEKEND WALLFLOWERS</h5>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link mx-1" href="https://inbarl.github.io/webmaster1819/Band/index.html">HOME <span class="sr-only">(current)</span></a>
@@ -26,7 +27,7 @@
   </div>
 </nav>
 
-  <div id="imageSection" class="container">
+  <div id="imageSection" class="container p-3">
       <div class="col-12 mx-auto my-auto ">
         <p class="text-center   lead">
 </p>
@@ -50,7 +51,17 @@
 
 
   </div>
+  <span id="footer" class="d-block p-2 bg-white">
+    <div id="contactSec" class="col-12 bg-transparent container row justify-content-center mx-auto">
+      <a class="text-muted my-auto mr-1 "href="https://inbarl.github.io/webmaster1819/index.html">CTE Website / </a>
 
+      <a class="text-muted my-auto "href="https://inbarl.github.io/webmaster1819/Band/credits.html"> Credits /</a>
+
+      <img class="m-2" onclick="location.href = 'https://www.instagram.com/weekendwallflowers/?hl=en';" href=""min-width="300%"min-height="300%" src="https://drive.google.com/uc?id=1repqae4peMu4GGn_lXhLyaHkOKwB3uqW" alt="Insta: Weekendwallflowers" >
+      <img class="m-2" onclick="location.href = 'mailto:weekendwallflowers@gmail.com?subject=Question';" min-width="300%"min-height="300%" src="https://drive.google.com/uc?id=1-AagrI8-lXycao8sunvuV7kkUVbZLIlH" alt="Email: weekendwallflowers@gmail.com" >
+      <img class="m-2" onclick="location.href = 'https://twitter.com/WeekendWallflo1';" min-width="300%"min-height="300%" src="https://drive.google.com/uc?id=1ZV-NAaalMj69xPbum5dw7BPoDYf4aN3x" alt="Twitter: WeekendWallflo1" >
+    </div>
+  </span>
     <style>
         body{
           background-image: url('https://drive.google.com/uc?id=1al-tA7idEdPK2nC5sitR91pD9dvZ-AvT');
@@ -66,7 +77,12 @@
           font-family: 'Montserrat', sans-serif;
           font-size: 40px;
         }
-        a {
+        #footer{
+          position: absolute;
+          width: 100%;
+        }
+
+        a, #open {
           font-size: 20px;
           animation-name:appear;
           animation-duration: 3s;
@@ -80,7 +96,13 @@
             /*setting alpha = 0.8*/
             background: rgba(5, 5, 5, .80);
         }
-
+        @media only screen and (min-width:1025px){
+          #footer{
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+          }
+        }
 
 
       </style>
@@ -90,6 +112,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
+
   </body>
 </html>
