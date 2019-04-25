@@ -5,6 +5,10 @@
 
   <title>MBHS</title>
   <link rel="stylesheet" href="MBHS.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css?family=Oswald|Open_Sans" rel="stylesheet">
 </head>
@@ -30,27 +34,57 @@
     <div class="sectionTitle" style="margin-left: 2rem">
       Who We Are
     </div>
-    <div class="sectionContent" style="padding-right: 0px;">
-      <div class="paragraph">
-        <img src="../webmaster1819/pics/teamwork.png" alt="Students in CTE classes" style="float:right; margin-left:2rem;">
-        <p>While McKinney Boyd High School has just over a decade of history to its name, the impact it has had within the community is undeniable. Brought to life by Mary Elizabeth Boyd’s vision, who left a fortune to take care of the students she loved, our school has always been driven to rise above its own expectations. From academics to athletics, we have it all!</p>
-      </div>
-      <div class="paragraph" style="background-color:gray">
-        <img src="somepics/pic2.jpg" alt="Students in CTE classes" style="float:left; margin-right:2rem;">
-        <p>McKinney Boyd has the ability offer to its student body many benefits across numerous academic fields; we pride ourselves on providing them with all the tools and skills they’ll need to succeed later in life. With a variety of courses and programs designed to maximize their potential, Boyd truly is the best place for any student to grow into their ideal self.</p>
-      </div>
-      <div class="paragraph">
-        <img src="somepics/hosa_classroom_back_wall.jpg" alt="Students in CTE classes" style="float:right; margin-left:2rem;">
-        <p>Boyd boasts a large population of over 3000 students, a number that is ever-growing, but still manages to provide the best quality education for all of them, leaving no student behind. With over 40 classrooms and 10 laboratories, as well as a well-stocked Learning Commons, our academic base is well-covered. In addition, Boyd’s athletic facilities include a baseball field, eight tennis courts, competition and practice gymnasiums, and a training room.</p>
-      </div>
-      <div class="paragraph" style="background-color:gray">
-        <img src="../webmaster1819/somepics/pic4.jpg" alt="Students in CTE classes" style="float:left; margin-right:2rem;">
-        <p>Not only does our school value the academic prowess of the students, but it also seeks to expand their horizons extracurricularly. We have many active clubs and organizations, from the prestigious National Honor Society for community service to the informal Pi Club for math-lovers. No matter where your interests lie, you can find your calling at Boyd.</p>
-      </div>
-    </div>
+
+<div id="mainSec" class="ml-1 mainContent container-fluid row" style="width:100%; margin-right:0;" >
+  <div class=" row mx-auto p-2">
+    <p class="lead p-4 col-lg-6 col-sm-12">Brought to life just over a decade ago, guided by Mary Elizabeth Boyd’s vision, our school has always been driven to rise above its own expectations. From academics to athletics, we have it all!</p>
+    <img class="img-responsive col-6 float-right d-none d-md-block" src="../webmaster1819/pics/teamwork.png" alt="Students in CTE classes" >
+
+  </div>
+  <div class=" row mx-auto bg-secondary ">
+    <img class="img-responsive col-6 float-right d-none d-md-block" src="somepics/pic2.jpg" alt="Students in CTE classes" >
+    <p class="lead p-4 col-lg-6 col-sm-12">At McKinney Boyd High, we pride ourselves on providing our students with all the tools and skills they’ll need to succeed later in life. With a variety of courses and programs designed to maximize their potential, Boyd truly is the best place for any student to grow into their ideal self.</p>
+
+  </div>
+  <div class=" row mx-auto ">
+    <p class="lead p-4 col-lg-6 col-sm-12 ">Boyd boasts a large population of over 3000 students, a number that is ever-growing, but still manages to provide the best quality education for all of them. With an emphasis on both athletics and academics, our facilities include over 40 classrooms, a well-stocked Learning Commons, as well as competition and practice gymnasiums.</p>
+
+    <img class="img-responsive col-6 float-right d-none d-md-block" src="somepics/hosa_classroom_back_wall.jpg" alt="Students in CTE classes" >
+
+  </div>
+  <div class=" row mx-auto bg-secondary ">
+    <img class="img-responsive col-6  float-right d-none d-md-block"src="../webmaster1819/somepics/pic4.jpg" alt="Students in CTE classes" >
+    <p class="lead p-4 col-lg-6 col-sm-12" >Not only does our school value the academic prowess of the students, but it also seeks to expand their horizons. We have many active clubs and organizations, from the prestigious National Honor Society to the informal Pi Club. No matter where your interests lie, you can find your calling at Boyd.</p>
+
+  </div>
+
+
+</div>
+
+
+
+
+    <style>
+      .lead{
+        font-size: 32px;
+      }
+
+      img {
+        width: 100%;
+      height: 100%;
+      object-fit: contain;
+             }
+    </style>
   </section>
   <footer>
     <script src="schoolFooter.js"></script>
+
   </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
