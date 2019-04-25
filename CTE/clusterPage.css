@@ -39,12 +39,25 @@ img{
   padding: 30px;
   padding-right: 15px;
   color: white;
-  background-color: #8e1e00;
+  display: block;
+
+  /*vertical-align: text-bottom;*/
+  /*background-color: #8e1e00;*/
 }
+
 
 .class .description{
   padding: 30px;
-  padding-left: 15px;
+  color:white;
+  display: none;
+}
+
+.class:hover .description{
+  display: block;
+}
+
+.class:hover .heading{
+  display: none;
 }
 
 .Teacher{
@@ -53,7 +66,7 @@ img{
   /*margin-top: 40px;*/
   padding: 2.5%;
   width: 33%;
-  padding-right: 3.5%; 
+  padding-right: 3.5%;
 
 }
 
