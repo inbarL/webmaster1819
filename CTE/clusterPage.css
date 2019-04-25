@@ -7,6 +7,10 @@ header{
   color: #8e1e00;
 }
 
+img{
+  padding-right: 15px;
+}
+
 .ClassList{
   background-color: white;
   margin-right: 0px;
